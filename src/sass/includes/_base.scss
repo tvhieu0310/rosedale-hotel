@@ -1,0 +1,112 @@
+/*  FONTS
+------------------------*/
+
+
+/*  TYPOGRAPHY
+–––––––––––––––––––––––––––*/
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+#header{
+  width:100%;
+  background:#fff;
+  height: 115px;
+  font-family:Montserrat;
+  font-weight:700;
+}
+#header .fleft .logo{
+  margin:24.5px 0;
+  padding:0;
+}
+
+#header .list-inline{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  line-height: 115px;
+}
+.list-inline li{
+  @include dis(middle);
+  float:left;
+  
+}
+#header .list-inline li a{
+  padding:10 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#282828;
+}
+#header .list-inline li .co{
+  padding:10 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#074D89;
+}
+#header .list-inline li:hover a{
+  color:#fff;
+  background: #074D89;
+}
+#footer{
+  height:130px;
+  background:#074D89;
+  font-family:Montserrat;
+  font-weight:700;
+}
+#footer .list-inline{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  line-height: 130px;
+}
+#footer .list-inline li a{
+  color:#fff;
+  padding:10 15px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#footer .list-inline li:hover a{
+  color:#074D89;
+  background:#fff;
+}
+#footer .fleft .logo{
+  display: block;
+  font-size:15px;
+  padding:0;
+  line-height:130px;
+  color:#fff;
+  font-weight: bold;
+}
+
+img{
+  max-width: 100%;
+  border: none;
+}
+
+.container{
+  margin: 0px auto;
+  width: 1170px;
+}
+
+.fleft{
+  float: left;
+}
+.fright{
+  float: right;
+}
+
+.clear-fix, .clearfix,.clear{
+  clear: both;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/* ------ Normalize ----- */

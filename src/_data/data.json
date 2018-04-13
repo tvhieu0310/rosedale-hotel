@@ -1,0 +1,31 @@
+{
+    "site": {
+        "title": "Our Awesome Website",
+        "author": "Tushar Ghate",
+        "meta": {
+            "charset": "utf8",
+            "description": "Lorem ipsum dolor sit amit.",
+            "keywords": "lorem, ipsum, dolor, sit, amit",
+            "favicon": "favicon.ico"
+        }
+    },
+
+    "nav": [{
+        "href": "/link1",
+        "name": "Home"
+    },
+
+    {
+        "href": "/link2",
+        "name": "quản lý"
+    },
+    {
+        "href": "/link3",
+        "name": "tuyển dụng"
+    },
+    {
+        "href": "/link3",
+        "name": "hỗ trợ"
+    }
+]
+}

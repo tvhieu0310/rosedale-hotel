@@ -1,0 +1,10 @@
+mixin addcity(input)
+	.city--name=input.cityname
+	.location_maps
+			-var lenght=Math.round(1+6*Math.random());
+					each val,index in newsystemitem
+						if(index!=lenght)
+							+add_systemitem(val)
+						else
+							-break
+					.clear
