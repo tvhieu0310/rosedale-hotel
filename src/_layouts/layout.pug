@@ -18,7 +18,11 @@ html
     
   body
     #wrapper
-      block content
+        block header
+            include ../_partials/header
+        block content
+        block footer
+            include ../_partials/footer
     //#wrapper  
     block body_end
     script(src="libs/jquery/jquery.min.js", type="text/javascript")
