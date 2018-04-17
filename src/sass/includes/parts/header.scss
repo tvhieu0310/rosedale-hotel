@@ -1,15 +1,186 @@
-.wall{
-	width: 1170px;
-	margin: 0 auto;
-	ul{
-		list-style: none;
-		margin: 0;
-		li{
-			width: 70px;
-			height: 70px;
-			margin: 20px;
-			background-color: red;
-			float: left;
-		}
-	}
+.header{
+    font-family: 'Roboto',Arial;
+    position: absolute;
+    width: 100%;
+    z-index: 80;
+    .container{
+        display: block;
+        .row{
+            margin-top: 52px;
+            .logo{
+                margin: 4px 15px 0px 15px;
+            }
+            .menu{
+                color: white;
+                ul{
+                    position: relative;
+                    margin: 0;
+                    li.menu__hover:hover{
+                        ul.menu__2{
+                            opacity: 1;
+                        }
+                    }
+                    li{
+                        display: inline-block;
+                        margin-bottom: 30px;
+                        a{
+                            margin: 0 20px 10px 20px;
+                            padding-bottom: 10px;
+                            text-transform: uppercase;
+                            font-size: 13px;
+                            font-weight: 400;
+                            border-bottom: 3px solid transparent;
+                            transition:0.5s;
+                        }
+                        ul.menu__2{
+                            position: absolute;
+                            top: 100%;
+                            opacity: 0;
+                            transition: 0.5s;
+                            background: #1c1c1c;
+                            text-align: left;
+                            min-width: 190px;
+                            padding: 0;
+                            li.menu__hover:hover{
+                                ul.menu__3{
+                                    opacity: 1;
+                                }
+                            }
+                            li{
+                                display: block;
+                                margin: 10px 0px 15px 0px;
+                                position: relative;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid #2b2b2b;
+                                a{
+                                    color: #bebebe;
+                                    margin: 0 ;
+                                    margin: 10px 30px 10px 10px;
+                                    width: 100%;
+                                    text-transform: none;
+                                    border-bottom: none;
+                                }
+                                .fa-chevron-right{
+                                    position: absolute;
+                                    right: 10px;
+                                    font-size: 10px;
+                                    top: 5px;
+                                }
+
+                                ul.menu__3{
+                                    opacity: 0;
+                                    transition:0.5s;
+                                    position: absolute;
+                                    left: 100%;
+                                    margin-left: 1px;
+                                    background: #1c1c1c;
+                                    text-align: left;
+                                    min-width: 190px;
+                                    padding: 0;
+                                    top: -10px;
+                                    li{
+                                        color: #bebebe;
+                                    }
+                                    li:hover{
+                                        a{
+                                            color: white;
+                                        }
+                                    }
+                                }
+                            }
+                            li:hover{
+                                a{
+                                    color: white;
+                                    ul.menu__3{
+                                        li{
+                                            a{
+                                                color: #bebebe;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            li:first-child{
+                                position: relative;
+                                a{
+                                    border: none;
+                                }
+                            }
+                            li:last-child{
+                                margin-bottom: 0;
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                    
+                    li:hover{
+                        a{
+                            border-bottom: 3px solid white;
+                        }
+                    }
+                    li:first-child{
+                        a{
+                            padding-left: 0;
+                            border-bottom: 3px solid white;
+                        }
+                    }
+                    li:last-child{
+                        a{
+                            border: none;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// RESPONSIVE HEADER
+@media screen and (max-width: 767px) {
+    header#header{
+        .header{
+            position: relative;
+            background: #000;
+            color: white ;
+            .container{
+                .row{
+                    margin-top: 0;
+                    .logo{
+                        max-width: 390px;
+                        .logo__img{
+                            text-align: center;
+                        }
+                        nav.nav__respon{
+                            ul.nav__respon__menu1{
+                                margin: 30px 0;
+                                padding: 0;
+                                li{
+                                    list-style: none;
+                                    .fa-chevron-right,.fa-chevron-left{
+                                        font-size: 10px;
+                                    }
+                                    ul.nav__respon__menu2{
+                                        padding: 0;
+                                        li{
+                                            ul.nav__respon__menu3{
+
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                    nav.menu{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }
