@@ -1,0 +1,94 @@
+section.slider{
+    font-family: 'Roboto',Arial;
+    display: block;
+    .owl-carousel{
+        .item{
+            .item__content{
+                position: absolute;
+                width: 100%;
+                color: white;
+                top: 247px;
+                line-height: 44px;
+                opacity: 0.7;
+                h2{
+                    font-size: 44px;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                }
+                .gach{
+                    height: 2px;
+                    width: 49px;
+                    left: 50%;
+                    margin-left: -24px;
+                    position: absolute;
+                    background: white;
+                    margin-bottom: 44px;
+                }
+                h1{
+                    font-size: 80px;
+                    text-transform: uppercase;
+                    padding-top: 22px;
+                }
+            }
+            .text-center{
+                text-align: center;
+            }
+        }
+        .owl-nav.disabled{
+            display: inline-block;
+            .owl-prev{
+                font-size: 0;
+                background-image: url("images/left.png");
+                width: 27px;
+                height: 46px;
+                position: absolute;
+                top: 50%;
+                left: 30px;
+                opacity: 0;
+                transition:1s;
+            }
+            .owl-next{
+                font-size: 0;
+                background-image: url("images/right.png");
+                width: 27px;
+                height: 46px;
+                position: absolute;
+                top: 50%;
+                right: 30px;
+                opacity: 0;
+                transition:1s;
+            }
+        }
+        .owl-dots{
+            position: absolute;
+            width: 100%;
+            margin: 0 auto;
+            bottom: 35px;
+            .owl-dot{
+                span{
+                    background: transparent;
+                    border: 2px solid white;
+                }
+            }
+            .owl-dot.active{
+                span{
+                    background: gray;
+                }
+            }
+        }
+    }
+}
+section.slider:hover{
+    .owl-carousel{
+        .owl-nav.disabled{
+            .owl-prev{
+                
+                opacity: 1;
+            }
+            .owl-next{
+                
+                opacity: 1;
+            }
+        }
+    }
+}
