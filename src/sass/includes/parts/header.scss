@@ -9,6 +9,12 @@
             margin-top: 52px;
             .logo{
                 margin: 4px 15px 0px 15px;
+                button{
+                     display: none;
+                }
+                nav.nav__respon{
+                    display: none;
+                }
             }
             .menu{
                 color: white;
@@ -155,6 +161,7 @@
                             text-align: center;
                         }
                         nav.nav__respon{
+                            display: block;
                             ul.nav__respon__menu1{
                                 margin: 30px 0;
                                 padding: 0;

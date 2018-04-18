@@ -40,6 +40,10 @@ a {
       margin-top: 52px; }
       .header .container .row .logo {
         margin: 4px 15px 0px 15px; }
+        .header .container .row .logo button {
+          display: none; }
+        .header .container .row .logo nav.nav__respon {
+          display: none; }
       .header .container .row .menu {
         color: white; }
         .header .container .row .menu ul {
@@ -142,15 +146,17 @@ a {
         max-width: 390px; }
         header#header .header .container .row .logo .logo__img {
           text-align: center; }
-        header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 {
-          margin: 30px 0;
-          padding: 0; }
-          header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li {
-            list-style: none; }
-            header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li .fa-chevron-right, header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li .fa-chevron-left {
-              font-size: 10px; }
-            header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li ul.nav__respon__menu2 {
-              padding: 0; }
+        header#header .header .container .row .logo nav.nav__respon {
+          display: block; }
+          header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 {
+            margin: 30px 0;
+            padding: 0; }
+            header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li {
+              list-style: none; }
+              header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li .fa-chevron-right, header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li .fa-chevron-left {
+                font-size: 10px; }
+              header#header .header .container .row .logo nav.nav__respon ul.nav__respon__menu1 li ul.nav__respon__menu2 {
+                padding: 0; }
       header#header .header .container .row nav.menu {
         display: none; } }
 
@@ -229,6 +235,3 @@ section.slider:hover .owl-carousel .owl-nav.disabled .owl-next {
 
 footer#footer {
   background-color: red; }
-
-h1 {
-  color: navy; }
