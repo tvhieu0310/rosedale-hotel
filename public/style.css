@@ -28,6 +28,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+#wrapper {
+  width: 100%; }
+
 /* ------ Normalize ----- */
 .header {
   font-family: 'Roboto',Arial;
@@ -230,5 +233,14 @@ section.slider:hover .owl-carousel .owl-nav.disabled .owl-next {
 footer#footer {
   background-color: red; }
 
-h1 {
-  color: navy; }
+.GioiThieu {
+  font-family: 'Roboto', sans-serif; }
+  .GioiThieu p {
+    color: #909090;
+    line-height: 22px;
+    font-size: 14px;
+    padding: 56px 0px 40px;
+    margin: 0px; }
+    .GioiThieu p a {
+      color: #53bca7;
+      font-weight: bold; }

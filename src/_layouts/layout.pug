@@ -14,12 +14,10 @@ html
     link(rel="stylesheet", href="libs/wow/animate.css")
     
   body
-    #wrapper
-        block header
-            include ../_partials/header
+    #wrapper        
+        include ../_partials/header
         block content
-        block footer
-            include ../_partials/footer
+        include ../_partials/footer
     //#wrapper  
     block body_end
     script(src="libs/jquery/jquery.min.js", type="text/javascript")
