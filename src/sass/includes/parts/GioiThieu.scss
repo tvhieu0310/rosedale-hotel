@@ -1,14 +1,36 @@
-.GioiThieu{
-  font-family: 'Roboto', sans-serif;
+.banner{
+  position: relative;
+  background: url('images/header-banner.jpg');
+  height: 310px;
+  width: 100%;
+  background-repeat: repeat;
+  background-position: center;
     p{
-    color:#909090; 
-    line-height: 22px;
-    font-size: 14px;
-    padding: 56px 0px 40px;
-    margin:0px;
-      a{
-        color:#53bca7;
-        font-weight: bold;
-      }
+      font-size: 28px;
+      text-transform: uppercase;
+      color:#fff;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 200px;
+      letter-spacing: 3px;
+      margin:0px;
     }
 }
+.GioiThieu{
+  font-family: 'Roboto', sans-serif;
+    &__descrip{
+      p{
+      color:#909090; 
+      line-height: 1.7;
+      font-size: 14px;
+      padding: 56px 0px 40px;
+      margin:0px;
+      letter-spacing: 0.2px;
+        a{
+          color:#53bca7;
+          font-weight: bold;
+        }
+      }
+    }
+  }

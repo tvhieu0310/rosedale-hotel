@@ -9,3 +9,16 @@ jQuery(document).ready(function(){
       autoplayHoverPause:true
   });
 });
+
+
+// $(document).ready(function() {
+//   $('.GioiThieu>.Admin').click(function() {
+//       $(this)
+//       .css('backgroundColor','#EE178C')
+//       .siblings()
+//       .css('backgroundColor','#ffffff');
+
+//       $('#submit_button').removeAttr('disabled');
+//       $('#number').removeAttr('disabled');
+//   });
+// });

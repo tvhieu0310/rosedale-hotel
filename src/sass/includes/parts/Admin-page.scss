@@ -1,0 +1,148 @@
+.Admin-page{
+  width:100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background: #f1f1f1;
+  height: 100vh;
+    &__content{
+      
+      &__title{
+        h1{
+          font-family: 'Roboto', sans-serif;
+          padding-top: 90px;
+          color: #31373d;
+          font-size: 30px;
+          line-height: 1;
+          margin: 0;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
+        p{
+          padding: 20px 0px;
+          color: #95a7b7;
+          font-size: 18px;
+          font-weight: 300;
+          margin: 0;
+          line-height: 24px;
+          
+        }
+        }
+      &__form{
+        color: #95a7b7;
+        font-size: 18px;
+        font-weight: 300;
+        width:340px;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        margin-left: 395px;
+        position: relative;
+           
+          .email{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 1px solid #e5e5e5;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            padding: 24px 61px ;
+            background:#fff;
+            height: 22px;
+            .svg-inline--fa.fa-w-16 {
+              position: absolute;
+              padding: 25px 33px;
+              left: 0px;
+              top: 1px;
+              font-size: 20px;
+           }
+         } 
+          .password{
+            border-bottom: 1px solid #e5e5e5;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            padding: 24px 61px ;
+            position: relative;
+            background: #fff;
+            height: 20px;;
+              .svg-inline--fa.fa-w-14 {
+                position: absolute;
+                padding: 25px 33px;
+                left: 0px;
+                top: 1px;
+                font-size: 20px;
+                }
+            }
+            
+          
+            input[type=text]{
+             border: none;
+              font-size: 18px;
+              font-weight: 300;
+              left:75px;
+              position: absolute;
+              font-size: 18px;
+              top: 25px;
+
+            }
+
+              ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color:#95a7b7;
+                font-family: 'Roboto', sans-serif;
+            
+              } 
+            
+            
+            Button{
+              border-bottom-left-radius: 10px;
+              border-bottom-right-radius: 10px;
+              display: block;
+              background: #479ccf;
+              color:#fff;
+              border:none;
+              height: 62px;
+              line-height: 50px;
+              font-size: 18px;
+              width: 100%;
+              padding:0px;
+              outline: none;
+          }
+        }
+          
+        .Check{
+          position: relative;
+          margin: 20px 0px;
+            span{
+              color: #95a7b7;
+              font-size: 14px;
+              line-height: 18px;
+              position: absolute;
+              left: 445px;
+              top: 2px;
+              font-weight: 500;
+            }
+             span:after {
+              content:"|";
+              font-weight:bold;
+              font-size:16px;
+              position:absolute;
+              left:120px;
+            }
+          
+            input[type=checkbox]{
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              left: 414px;
+              top: -1px;
+            }
+            a{
+              font-size: 14px;
+              color:#0078bd;
+              position: absolute;
+              top: 2px;
+              left: 583px;
+            }
+        }
+      }
+    }

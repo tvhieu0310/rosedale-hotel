@@ -1,1 +1,30 @@
-p bai viet tt
+extends _layouts/layout
+block content
+  .banner
+    p tin tức
+  .bviet-tt
+    .container
+      .bviet-tt__content
+        .bviet-tt__content__colleft.fleft
+          .bv-tt-container
+            .img
+              img(src="images/bv-tt-anh1.jpg", alt="")
+            .img-descrip
+              .img-descrip__date.fleft
+                p 18
+                span Tháng 02
+              .img-descrip__text.fleft
+                .img-descrip__text__cmt
+                  i.fas.fa-pencil-alt
+                  |Diêm Nguyễn
+                  i.fas.fa-comments
+                  |0 Bình luận
+                  p.paragrap
+                    a(href="#") tổng quan về rosedale hotel
+                    p Windmill Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù...
+                    a.continute xem tiếp
+                      i.fas.fa-long-arrow-alt-right
+              .clear-fix
+        .bviet-tt__content__colright.fleft
+        .clear-fix
+      

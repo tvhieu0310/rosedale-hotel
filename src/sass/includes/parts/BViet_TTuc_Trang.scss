@@ -1,0 +1,59 @@
+.bviet-tt{
+  width: 100%;
+  margin-top: 55px;
+  font-family: 'Roboto', sans-serif;
+    &__content{
+      &__colleft{
+        width: 65%;
+          .bv-tt-container{
+            width:95%;
+            margin:0 auto;
+              .img-descrip{
+                width: 100%;
+                margin-top:22px;
+                  &__date{
+                    width: 68px;
+                    height: 65px;
+                    text-align: center;
+                    background: #1abc9c;
+                    color:#fff;
+                    box-shadow: 2px 2px 0px #15a881;
+                    -moz-box-shadow: 2px 2px 0px #15a881;
+                    -webkit-box-shadow: 2px 2px 0px #15a881;
+                      p{
+                        margin:0px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        padding:10px 0px 0px;
+                      }
+                      span{
+                        padding: 4px 0px 0px;
+                        font-size: 14px;
+                      }
+                  }
+                &__text{
+                  margin-left:25px;
+                  &__cmt{
+                    color:#1abc9c;
+                    font-size: 13px;
+                    font-style: italic;
+                      .svg-inline--fa.fa-w-16 {
+                        padding: 0px 3px 0px 0px;
+                    }
+                    .svg-inline--fa.fa-w-18 {
+                      padding: 0px 3px 0px 25px;
+                  }
+                  }
+                }
+              }
+          }
+      }
+      &__colright{
+        width: 35%;
+          .bv-tt-container{
+            width:90%;
+            margin:0 auto;
+          }
+      }
+    }
+}
