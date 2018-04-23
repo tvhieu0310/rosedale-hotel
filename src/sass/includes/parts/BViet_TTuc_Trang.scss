@@ -8,6 +8,11 @@
           .bv-tt-container{
             width:95%;
             margin:0 auto;
+            .bv-tt-box{
+              margin-top: 55px;
+              &:first-child{
+                margin-top: 0px;
+              }
               .img-descrip{
                 width: 100%;
                 margin-top:22px;
@@ -33,21 +38,59 @@
                   }
                 &__text{
                   margin-left:25px;
+                  width: 86%;
+                  box-sizing: border-box;
                   &__cmt{
                     color:#1abc9c;
                     font-size: 13px;
                     font-style: italic;
                       .svg-inline--fa.fa-w-16 {
                         padding: 0px 3px 0px 0px;
-                    }
-                    .svg-inline--fa.fa-w-18 {
-                      padding: 0px 3px 0px 25px;
-                  }
+                       }
+                      .svg-inline--fa.fa-w-18 {
+                        padding: 0px 3px 0px 25px;
+                       }
+                     }
+                  .paragrap{
+                    margin-top:16px;
+                      .para-title{
+                        color: #424242;
+                        font-size: 20px;
+                        font-weight: bold;
+                        line-height: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                       
+                      }
+
+                      .para-content{
+                        font-size: 14px;
+                        line-height: 1.7;
+                        color: #909090;
+                        margin-top:8px;
+                        /* letter-spacing: 0.3px; */
+                     }
+                     .continue{
+                       position: relative;
+                      font-style: italic;
+                      font-size: 13px;
+                      letter-spacing: 1px;
+                      color: #53bca7;
+                      top:6px;
+                      letter-spacing: 1px;
+                      .svg-inline--fa.fa-w-14{
+                       left:80px;
+                      top:2px;
+                        position: absolute;
+                      }
+                     }
+                    
                   }
                 }
+                }
               }
-          }
-      }
+               }
+             }
       &__colright{
         width: 35%;
           .bv-tt-container{
