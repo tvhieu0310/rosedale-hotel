@@ -1,0 +1,12 @@
+.room-content{
+  &__form{
+    width: 30%;
+   
+    margin-left: 30px;
+  }
+  &__infor{
+   width: 70%;
+   box-sizing: border-box;
+   padding-right: 30px;
+  }
+}

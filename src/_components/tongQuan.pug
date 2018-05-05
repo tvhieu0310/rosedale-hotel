@@ -1,0 +1,141 @@
+mixin tongquan(text , img)
+  .banner
+    p=text
+  .bviet-tt
+    .container
+      .bviet-tt__content
+        .bviet-tt__content__colleft.fleft
+          .bv-tt-container
+            .bv-tt-box
+              .box-descrip
+                .box-descrip__date.fleft
+                  p 18
+                  span Tháng 02
+                .box-descrip__text.fleft
+                  .box-descrip__text__cmt
+                    .box-descrip__title
+                      p title
+                    i.fas.fa-pencil-alt
+                    |Diêm Nguyễn
+                    i.fas.fa-comments
+                    |0 Bình luận
+                  .paragrap
+                    .para-img
+                      img(src=img)
+                    .para-content Windmill Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù hợp với nhiêu tập khách hàng, từ khách hàng đơn lẻ tới gia đình, với không gian thoán đãng, giúp bạn tận hưởng và thư giãn trọn vẹn kỳ nghỉ.
+                      .note-box
+                        p.note "Đây là 1 trong những nơi nghĩ dưỡng tuyệt vời nhất mà tôi từng trải nghiệm."  
+                          span Khoa Nguyen - 
+                            i Web designer từ Haravan
+                      p Windmill Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù hợp với nhiêu tập khách hàng, từ khách hàng đơn lẻ tới gia đình, với không gian thoán đãng, giúp bạn tận hưởng và thư giãn trọn vẹn kỳ nghỉ. Windmill Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù hợp với nhiêu tập khách hàng, từ khách hàng đơn lẻ tới gia đình, với không gian thoán đãng, giúp bạn tận hưởng và thư giãn trọn vẹn kỳ nghỉ. 
+                      p Windmill Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù hợp với nhiêu tập khách hàng, từ khách hàng đơn lẻ tới gia đình, với không gian thoán đãng, giúp bạn tận hưởng và thư giãn trọn vẹn kỳ nghỉ. Windmill Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù hợp với nhiêu tập khách hàng, từ khách hàng đơn lẻ tới gia đình, với không gian thoán đãng, giúp bạn tận hưởng và thư giãn trọn vẹn kỳ nghỉ.
+                .clearfix
+            .link
+              ul
+                li
+                  a.LK Liên kết:
+                li
+                  a.like(href="#")
+                    i.fas.fa-thumbs-up
+                    |Like 0
+                  a.tweet(href="#")
+                    span Tweet
+                li
+                  a.share(href="#")
+                    i.fas.fa-plus-square
+                    |Share
+                  a.link-number
+                    span 2
+            p.viet-binh-luan viết bình luận
+            .comment-content
+              .info-user
+                input(type="text", placeholder="Tên của bạn")
+                input(type="text", placeholder="Email của bạn")
+              .comment-user
+                textarea( cols="45", rows="8", placeholder="Viết bình luận...")
+              p Bình luận của bạn sẽ được phê duyệt trước khi đăng lên
+              button Gửi bài viết
+
+        .bviet-tt__content__colright.fleft
+          .bv-tt-container
+            .colright-box
+              .colright-box__title
+                p Danh mục
+              .colright-box__content
+                .colright-box__content__menu
+                  ul
+                    li
+                      a(href="#") Trang chủ
+                    li
+                      a(href="#") Các loại phòng
+                    li
+                      a(href="#") Bài viết - Tin tức
+                    li
+                      a(href="#") Giới thiệu
+                    li
+                      a(href="#") Liên hệ
+            .colright-box
+              .colright-box__title
+                p BLOG ROSEDALE HOTEL
+              .colright-box__content
+                .colright-box__content__text
+                  p Rosedale Hotel được xây dựng dọc bờ biển, dựa theo ý tưởng Hy Lạp cổ đại, nhưng vẫn mang hình ảnh hiên đại, với nhiều dịch vụ tính năng phù hợp với nhiêu tập khách hàng, từ khách hàng đơn lẻ tới gia đình, với không gian thoán đãng, giúp bạn tận hưởng và thư giãn trọn vẹn kỳ nghỉ.
+            .colright-box
+              .colright-box__title
+                p BÀI VIẾT MỚI NHẤT
+              .colright-box__content
+                .colright-box__content__item
+                  .item-left.fleft
+                    a(href="#")
+                      img(src="images/bv-tt-anh1.jpg", alt="")
+                  .item-right.fleft
+                    a(href="#")
+                      p Tổng quan về Rosedale Hotel
+                    i.far.fa-clock
+                    span 18/02/2016
+                  .clearfix
+                .colright-box__content__item
+                  .item-left.fleft
+                    a(href="#")
+                      img(src="images/bv-tt-anh2.jpg", alt="")
+                  .item-right.fleft
+                    a(href="#")
+                      p Trải nghiệm phòng ngủ đặc biệt với giá phải chăng
+                    i.far.fa-clock
+                    span 18/02/2016
+                  .clearfix
+                .colright-box__content__item
+                  .item-left.fleft
+                    a(href="#")
+                      img(src="images/bv-tt-anh3.jpg", alt="")
+                  .item-right.fleft
+                    a(href="#")
+                      p Tặng ăn sáng buffer cho các chị em phụ nữ trong ngày 20/10
+                    i.far.fa-clock
+                    span 18/02/2016
+                  .clearfix
+                .colright-box__content__item
+                  .item-left.fleft
+                    a(href="#")
+                      img(src="images/BV-TT-bearch.jpg", alt="")
+                  .item-right.fleft
+                    a(href="#")
+                      p Khuyến mãi hè 2016
+                    i.far.fa-clock
+                    span 18/02/2016
+                  .clearfix
+            .colright-box
+              .colright-box__title
+                p TAGS
+              .colright-box__content
+                .colright-box__content__btn.fleft
+                  a(href="#") Blog
+                .colright-box__content__btn.fleft
+                  a(href="#") Phòng hiện đại
+                .colright-box__content__btn.fleft
+                  a(href="#") Phòng đẹp
+                .colright-box__content__btn.fleft
+                  a(href="#") Video
+                .clearfix
+        .clear-fix
+      
