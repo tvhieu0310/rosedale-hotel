@@ -1,0 +1,89 @@
+mixin phongDT(text,img,name,cost,giuong,people,huong,width,wifi,breakf,dv,bc,descrip)
+  .banner
+    p=text
+  .room-content
+    .container
+      .room-content__infor.fleft
+        .carousel
+          .owl-carousel.owl-theme
+            .item
+              img(src=img, alt="")
+            .item
+              img(src="images/bv-tt-anh3.jpg", alt="")
+            .item
+              img(src="images/BV-TT-room.jpg", alt="")
+            .item
+              img(src="images/room_pr4_large.jpg", alt="")
+            .item
+              img(src="images/main_pr8_large.jpg", alt="")
+            .item
+              img(src="images/bv-tt-anh1.jpg", alt="")
+        .room-name
+          h3.fleft=name
+          p.fright Giá phòng&nbsp;&nbsp;
+            span=cost
+          .clear-fix
+        .room-info
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Giường&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=giuong
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Người&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=people
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Hướng&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=huong
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Kích thước&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=width
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Wifi&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=wifi
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Bữa sáng&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=breakf
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Dịch vụ phòng&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=dv
+          .room-info__detail
+            i.far.fa-check-square
+            span.head Ban công&nbsp;&nbsp;&nbsp;&nbsp;
+            span.tail=bc
+          .clearfix
+        .room-descrip
+          p=descrip
+      .room-content__form.fright
+        .room-content__form__title
+          p đặt phòng
+        .form-group
+          label E-mail
+          input(type="text", name="email", placeholder="Email của bạn")
+        .form-group
+          label Điện thoại
+          input(type="text", name="email", placeholder="Số điện thoại của bạn")
+        .form-group
+          label.fleft Thời gian nhận phòng
+          .data-hover.fleft(data-toggle="popover",data-container="body",data-trigger="hover", data-content="thời gian nhận phòng từ 14:00",data-placement="right")
+            i.fas.fa-info-circle
+          .clear-fix
+          input.datepicker(type="text", placeholder="Chọn thời gian")
+        .form-group
+          label.fleft Thời gian trả phòng
+          .data-hover.data-absolute.fleft(data-toggle="popover",data-container="body",data-trigger="hover", data-content="thời gian trả phòng trước 12:00",data-placement="right")
+            i.fas.fa-info-circle
+          .clear-fix
+          input.datepicker(type="text", placeholder="Chọn thời gian")
+        .form-group
+          label Số khách
+          input(type="text")
+        .form-group
+          button
+            i đặt phòng ngay
+      .clear-fix

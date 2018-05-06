@@ -1,12 +1,195 @@
 .room-content{
+  font-family: 'Roboto', sans-serif;
+  margin:55px 0px 20px;
+  
   &__form{
     width: 30%;
-   
-    margin-left: 30px;
+    background-color: #1abc9c;
+    color:#fff;
+    font-size: 14px;
+    border-radius: 4px;
+      &__title{
+        text-align: center;
+        p{
+          letter-spacing: 1px;
+          font-size: 16px;
+          text-transform: uppercase;
+          border-bottom: 2px solid #097c62;
+          padding: 15px 15px ;
+          margin-bottom: 20px;
+          margin-top: 0px;
+        }
+      }
+      .form-group{
+        box-sizing: border-box;
+        padding-left:20px;
+        margin-bottom: 15px;
+          label{
+            margin-bottom: 8px;
+            // display: block;
+            width: 140px;
+            font-weight: 500;
+            position: relative;
+          }
+          .data-hover{
+            width:20px;
+            height: 20px;
+            font-size: 14px;
+            color:#828282;
+            .svg-inline--fa.fa-w-16{
+                color:#fff;
+                font-size: 20px;
+              }
+          }
+          .data-absolute{
+            position: absolute;
+            right: 286px;
+          }
+          input[type=text]{
+            font-size: 14px;
+            padding: 10px 15px;
+            width: 220px;
+            cursor: pointer;
+            border:none;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            color: #828282;
+            background-color: #f5f5f5;
+          }
+          button{
+            
+              background-color: #0e8e75;
+              display: inline-block;
+              font-size: 13px;
+              font-weight: 700;
+              padding: 12px 25px 12px;
+              outline: none;
+              cursor: pointer;
+              border: none;
+              letter-spacing: 1px;
+              width: 220px;
+              border-radius: 0;
+              text-decoration: none;
+              border-color: #097c62;
+              text-transform: uppercase;
+              border-bottom-width: 2px;
+              border-bottom-style: solid;
+              text-align: center;
+          }
+      }
   }
   &__infor{
-   width: 70%;
+   width: 68%;
    box-sizing: border-box;
-   padding-right: 30px;
+    .carousel{
+      position: relative;
+      .owl-carousel{
+        &:hover .owl-nav button{
+          opacity: 0.7;
+          display: block;
+        }
+        .item{
+          width: 98%;
+          height: 331px;
+          -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+           transition: width 0.5s;
+           overflow: hidden;
+          &:hover{
+            width: 100%;
+            height: 331px;
+          }
+        }
+        
+        .disabled{
+          display: block;
+        }
+        .owl-dots{
+          display: none;
+        }
+        .owl-nav,.owl-theme{
+          border-radius: none;
+          button{
+            position: absolute;
+            top: 50%;
+            color:#fff;
+            // opacity: 0;
+            display: none;
+            cursor: pointer;
+            background-color: #000000;
+              span{
+                padding: 10px 15px;
+                font-size: 25px;
+               
+               
+              }
+          }
+          .owl-prev{
+            left: 0px;
+          }
+          .owl-next{
+            right: 10px;
+          }
+        
+        }
+      }
+    }
+    .room-name{
+      box-sizing: border-box;
+      margin:25px 0px;
+      padding-bottom: 5px;
+      border-bottom:2px solid #e5e5e5;
+      h3{
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #424242;
+      }
+      p{
+        font-size: 15px;
+        line-height: 20px;
+        margin: 20px 10px 0px 0px;
+        color: #909090;
+        font-style: italic;
+          span{
+            color: #74b7d3;
+            font-style: initial;
+          }
+      }
+    }
+    .room-info{
+      &__detail{
+        width: 44%;
+        float: left;
+        font-size: 13px;
+        margin-bottom: 3px;
+        background-color: #f5f5f5;
+        padding: 16px 20px;
+        margin-right: 3px;
+        color:#909090;
+        .svg-inline--fa.fa-w-14{
+            margin-right: 15px;
+            margin-top: 5px;
+            font-weight: 700;
+          }
+        .head{
+          font-weight: 700;
+        }
+        .tail{
+          font-style: italic;
+        }
+      }
+
+    }
+    .room-descrip{
+      p{
+        font-size: 14px;
+        line-height: 1.7;
+        color:#909090;
+        margin: 20px 0px 55px;
+      }
+    }
   }
 }

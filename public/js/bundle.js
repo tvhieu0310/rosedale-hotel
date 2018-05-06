@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){$(".owl-carousel").owlCarousel({items:1,loop:!0,margin:10,autoplay:!0,autoplayTimeout:4500,autoplayHoverPause:!0})});
+jQuery(document).ready(function(){$(".owl-carousel").owlCarousel({items:1,loop:!0,margin:10,autoplay:!0,autoplayTimeout:4500,autoplayHoverPause:!0})}),$(document).ready(function(){$(function(){$(".datepicker").datepicker()})}),$(document).ready(function(){$('[data-toggle="popover"]').popover()});

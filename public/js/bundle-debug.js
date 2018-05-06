@@ -10,6 +10,16 @@ jQuery(document).ready(function(){
   });
 });
 
+$(document).ready(function() {
+  $( function() {
+    $( ".datepicker" ).datepicker();
+    });
+});
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+
 
 // $(document).ready(function() {
 //   $('.GioiThieu>.Admin').click(function() {
